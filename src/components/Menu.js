@@ -5,7 +5,7 @@ import NavbarCollapse from 'react-bootstrap/esm/NavbarCollapse';
 function Menu(){
     return(
         <div>
-           <Navbar bg="myRed" variant="dark" sticky="top" expand="lg" collapseOnSelect>
+           <Navbar bg="dark" variant="dark" sticky="top" expand="lg" collapseOnSelect>
                <Navbar.Brand className="myname">
                    MohanDandigam
                </Navbar.Brand>
