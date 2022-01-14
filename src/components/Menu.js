@@ -6,12 +6,12 @@ function Menu(){
     return(
         <div>
            <Navbar bg="myRed" variant="dark" sticky="top" expand="lg" collapseOnSelect>
-               <Navbar.Brand >
+               <Navbar.Brand className="myname">
                    MohanDandigam
                </Navbar.Brand>
                <Navbar.Toggle/>
                 <Navbar.Collapse>
-                  <Nav className="menu">
+                  <Nav>
                     {/* <NavDropdown title="Products">
                             <NavDropdown.Item href="">Tea</NavDropdown.Item>
                             <NavDropdown.Item href="">Cofee</NavDropdown.Item>
